@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color: #f0f0f0;
+}
+.fruit-list{
+background-color: #723d46;
+padding: 15px;
+width: 350px;
+margin: 20px;
+}
+.fruit-list li{
+    background-color: #562731;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.number{
+color: #cda1a7;
+margin-right: 15px;
+font-weight: bold;
+font-size: 24px;
+}
+.text{
+background-color: #40151d;
+color: #cda1a7;
+padding: 5px 10px;
+font-size: 24px;
+}
+/* 2 */
+h1{
+    text-align: center;
+}
+.list{
+    width: 500px;
+    background-color: #b0b9cf;
+}
+.todo-list{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    width: 400px;
+    list-style: none;
+    margin: 30px;
+}
+.todo-list li{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    margin-right: 10px;
+    color: #40151d;
+    font-size: large;
+}
+.close-btn{
+    float: right;
+    color: red;
+    font-weight: bold;
+}
+.todo-text{
+    
+    margin-right: auto;
+}
+.checked{
+    background-color: #8a8282;
+    color: #070404;
+    text-decoration: line-through;
+}
+.blue{
+    background-color: #7cbbd6;
+}
+.dark-blue{
+    background-color: #4192b4;
+}
+/* 3 */
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    line-height: 1.6;
+}
+.word{
+    font-size: 32px;
+    font-weight: bold;
+}
+.transcliption{
+    color: gray;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+dt{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 20px;
+}
+dd{
+    margin-left:50PX;
+}
+.example{ 
+    display: block;
+    font-style: italic;
+    color: #706868;
+    margin-left: 5px;
+}
+.synonyms{
+    color: #0d23b3;
+}
