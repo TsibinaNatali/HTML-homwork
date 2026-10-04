@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #141b2a;
+}
+.header-container{
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+    padding:30px 16px;
+    background-color: #171a21;
+}
+.left-nav{
+    float: left;
+}
+.logo{
+    float: left;
+    margin-right: 20px;
+}
+.logo > img{
+     height: 80px;
+     vertical-align: middle;
+}
+.main-menu{
+    float: left;
+    list-style: none;
+    margin-top: 12px;
+}
+.menu-item{
+    display: inline-block;
+    margin-right: 15px;
+}
+.menu-item > a{
+    color: #b8b6b4;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.2s;
+}
+.menu-item > a:hover{
+    color: #ffffff;
+}
+.action-row{
+    float: right;
+    margin-top: 6px;
+}
+.clearfix{
+    clear: both;
+}
+.sub-menu-container{
+    width: 100%;
+    background: linear-gradient(90deg, #3d6c8f 0%, #2e5470 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.sub-menu-content{
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 16px;
+    height: 35px;
+}
+.sub-menu{
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sub-item{
+    display:inline-block;
+    line-height: 35px;
+}
+.sub-link{
+    display: block;
+    padding: 0 15px;
+    color: #d9effa;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.sub-link:hover{
+    color: #ffffff;
+    background: rgba(225, 225, 225, 0.1);
+}
+.search-box{
+    float: right;
+    margin-top: 4px;
+    height: 27px;
+    background-color: 315875;
+    border: 1px solid #162430;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.search-box > input{
+    float: left;
+    background:transparent;
+    border:none;
+    outline: none;
+    height: 100%;
+    padding: 0 10px;
+    color: #ffffff;
+    font-size: 12px;
+    font-style: italic;
+    width: 200px;
+}
+.search-box > input::placeholder{
+    color: #4c7c9a;
+}
+.search-btn{
+    float: right;
+    width: 25px;
+    height: 100%;
+    background-color: #00c0f3;
+    border: none;
+    cursor: pointer;
+}
+.search-box > button{
+    background:transparent;
+    border: none;
+    color: #63b0e3;
+    cursor: pointer;
+    font-size: 12px;
+}
